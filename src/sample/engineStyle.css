@@ -1,0 +1,56 @@
+.root{
+
+    -fx-background-image: url("/Images/backgData.jpg");
+    -fx-background-repeat: repeat;
+    -fx-background-size: 650 540;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+
+}
+
+Button {
+    -fx-text-fill: white;
+    -fx-font-family: "Staatliches", cursive;
+    -fx-font-weight: bold;
+    -fx-font-text-border: black;
+    -fx-border-color:transparent;
+    -fx-background-color:transparent;
+    -fx-font-size: 15
+
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url("Font/Staatliches-Regular.ttf");
+}
+
+Button:hover{
+
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+ComboBox{
+    -fx-text-fill: black;
+    -fx-font-family: "Staatliches", cursive;
+    -fx-font-weight: bold;
+    -fx-border-color:black;
+    -fx-background-color: #5a919a;
+}
+
+#startingEngine{
+     -fx-text-fill: black;
+     -font-family: 'Staatliches', cursive;
+     -fx-font-weight: bold;
+     -fx-font-size: 20
+ }
+
+ #startingEngine:hover{
+     -fx-text-fill: white;
+     -font-family: 'Staatliches', cursive;
+     -fx-font-weight: bold;
+     -fx-font-size: 20
+ }
+
